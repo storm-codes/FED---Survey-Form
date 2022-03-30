@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bee & Chris RSVP</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="wholepage">
+      <div id="invite-side">
+        <h1 id="title">Wedding RSVP</h1>
+        <h3 id="subtitle">Bee and Chris (also Bex)</h3>
+        <img
+          class="image"
+          src="Assets\wedding invitation final.jpeg"
+          alt="Bee and Chris wedding invitation. Them by a rooftop pool"
+        />
+        <p id="invite-info">You are corduly invited to Bee, Chris and Bex's beautiful wedding. This website will act as your invitation and a place for you to RSVP - we are tech savy queers afterall 💅🏼. 
+          That said - please refrain from sharing this link with other people without any of our permissions.
+        </p>
+      </div>
+
+      <div id="form-side">
+        <div id="desprip-div">
+          <p id="description">
+            This is the RSVP form for Bee, Chris and Bex's wedding. Please fill
+            in the following form so that we know who to expect and what kind of
+            food to cater for.
+          </p>
+        </div>
+
+        <form id="survey-form">
+          <h2 id="form-title">RSVP Form:</h2>
+
+          <div id="input-section">
+            <label id="name-label" class="input-element">
+              <span id="name-label"> Your Name: </span>
+              <input type="text" id="name" placeholder="Johnny Applebottom" />
+            </label>
+
+            <label id="email-label" class="input-element">
+              <span id="email-label"> Your Email Address: </span>
+              <input type="email" id="email" placeholder="soandso@xmail.com" />
+            </label>
+
+            <label id="number-label" class="input-element">
+              <span id="number-label">
+                How Many People Do You Plan On Bringing?
+              </span>
+              <input
+                type="number"
+                id="number"
+                min="0"
+                max="3"
+                placeholder="?"
+              />
+            </label>
+
+            <label id="food-label" class="input-element">
+              Diatariy Restrictions
+              <select id="dropdown">
+                <option value="">--Please choose an option--</option>
+                <option value="no restrictions">No Restrictions</option>
+                <option value="vegetarian ">Vegetarian</option>
+                <option value="vegan">Vegan</option>
+                <option value="hallal">Hallal</option>
+                <option value="diabetic">Diabetic</option>
+                <option value="other">Other</option>
+              </select>
+            </label>
+          </div>
+
+          <div id="check-section" class="input-element">
+            <h4 id="straight-label">Are you or your plus one/s straight?</h4>
+            <p class="mini-text">
+              (This may or may not effect you or your guests seating arrangment)
+            </p>
+            <div>
+              <input
+                type="checkbox"
+                id="-notstraight"
+                name="drone"
+                value="not-straight"
+                checked
+              />
+              <label for="not-straight">Not-Straight</label>
+            </div>
+
+            <div>
+              <input type="checkbox" id="not" name="drone" value="straight" />
+              <label for="not"> Straight </label>
+            </div>
+
+            <div>
+              <input type="checkbox" id="cool" name="drone" value="cool" />
+              <label for="cool">Straight but I'm cool</label>
+            </div>
+          </div>
+
+          <div id="radio-section">
+            <h4>Are you coming ?</h4>
+
+            <label>
+              <input type="radio" value="yes" />
+              <span> Yes</span>
+            </label>
+
+            <label>
+              <input type="radio" value="no" />
+              <span> No, I suck</span>
+            </label>
+          </div>
+
+          <button id="submit" class="submit-button">✨ Submit ✨</button>
+        </form>
+
+        <div id="footer">
+          <p id="conclusion">
+            Thank you for filling in our RSVP form. You should recieve an
+            confirmation email and invitation soon. Than you choosing to gay
+            with us.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

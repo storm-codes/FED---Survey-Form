@@ -1,0 +1,133 @@
+
+
+#wholepage {
+    display:flex;
+    flex-direction: row;
+    padding: 6rem;
+    background-color: rgb(0, 0, 0); 
+    background-image: url(file:///C:/Users/cjxni/OneDrive/Desktop/Front%20End/FED%20-%20Survey%20Form/Assets/bck-mindwarp.jpg); 
+    background-repeat: repeat;
+}
+
+#survey-form {
+    display:flex;
+    flex-direction:column;
+    max-width: 24rem;
+    background-color:rgb(255, 248, 210);
+    border-radius: 30px; 
+    padding: 2rem;
+    align-self: center;
+    align-items: center;
+}
+
+.image {
+    width: 100%;
+    max-width: 300px;
+    border-style: double;
+    border-color: azure;
+
+}
+
+#invite-side {
+    background-color: rgb(230, 208, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2rem;
+    max-width: 40%;
+    padding: 2rem;
+}
+
+#form-side {
+    background-color: rgb(254, 255, 247);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+    max-width: 60%;
+}
+
+#title {
+    color:rgb(0, 0, 0);
+    font-family: 'Abril Fatface', cursive;
+    font-size: 3rem;
+    letter-spacing: 2px;
+    
+}
+
+#subtitle {
+    color:rgb(0, 0, 0);
+    font-family: 'Satisfy', cursive;
+    font-size: 1.7rem;
+}
+
+p {
+    text-align: center;
+    color: rgb(31, 31, 31);
+    font-family: 'Noto Serif', serif;
+    font-size: small;
+}
+
+.mini-text {
+    text-align: left;
+    color: rgb(27, 15, 70);
+    font-family: 'Noto Serif', serif;
+    font-size: xx-small;  
+}
+
+h4 {
+    text-align: left;
+    color:rgb(0, 0, 0);
+    font-family: 'Noto Serif', serif;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: left;
+    color:rgb(0, 0, 0);
+    font-family: 'Noto Serif', serif;
+    font-weight: bold;
+}
+
+label {
+    color: rgb(31, 31, 31);
+    font-family: 'Noto Serif', serif;
+    font-size: small;
+}
+
+#invite-info {
+    color: rgb(31, 31, 31);
+    font-family: 'Noto Serif', serif;
+    font-size: small;
+}
+
+.submit-button {
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    width: 10rem;
+    color: rgb(193, 246, 255);
+    background-color: rgb(19, 19, 19); 
+}
+
+
+#yes-no {
+    padding: 2rem, 0rem, 2rem, 0rem;
+}
+
+.input-element{
+     padding: 0.5rem;   
+}
+
+#input-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#radio-section {
+    padding: 2rem;
+}
+
+#check-section {
+    padding: 1rem;
+}
